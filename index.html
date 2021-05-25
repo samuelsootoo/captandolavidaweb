@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Samuel Soto">
+    <meta name="description" content="Contenido variado relacionado con la marca CAPTANDO LA VIDA, propiedad de Samuel Soto">
+    <meta name="keywords" content="Fotografía, Moda, Fotografo, Ropa, Hombres, Mujeres, Exclusivo, España, Fotografos en España, Fotografos de moda, Modelos, Fotografía artistica, Diseñador, Estilo, Sesiones">
+    <meta name="copyright" content="SAMUEL SOTO">
+    <meta name="robots" content="index">
+    <meta name="robots" content="nofollow">
+    <link rel="icon" type="image/png" href="/content/logos/icono.png">
+    <!-- Para mas informacion sobre los tipo de meta tags usados en esta pagina, visite esta pagina: https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/los-meta-tags-mas-importantes-y-su-funcion/ -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <!-- El archivo normalize sera el estilo base de esta pagina, apartir de aqui todos los css incluidos son especificos para esta pagina y usados en situaciones determinadas -->
+    <link rel="stylesheet" type="text/css" href="css/desktop.css">
+    <link href="https://fonts.googleapis.com/css?family=Lusitana&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="js/desktop.js"></script>
+    <title>Captando la vida.</title>
+</head>
+
+<body>
+    <div id="container">
+        <header onclick="inicio()">
+            <div class="logo1"><img class="logo" src="content/logos/samuel_soto.png" alt="Samuel Soto"></div>
+            <div class="logo2"><img class="logo" src="content/logos/captandolavida.png" alt="Captando la vida"></div>
+        </header>
+        <nav>
+            <button onclick="menu()"><img id="menu_movil" src="content/botones/menu.png" alt="menu"></button>
+            <ul id="movil_nav_contacto">
+                <li id="movil_item_nav_contacto"><a onclick="redesSociales()" id="rrss">Redes sociales</a></li>
+                <li id="movil_item_nav_contacto"><a onclick="reservas()" id="reserve">Reservas</a></li>
+                <li id="movil_item_nav_contacto"><a onclick="quienesSomos()" id="whoi">Quienes somos</a></li>
+                <li id="movil_item_nav_contacto"><a onclick="contactanos()" id="contact">Contactanos</a></li>
+            </ul>
+        </nav>
+        <div id="principal">
+            <main>
+                <section>
+                    <article>
+                    <h1>Bienvenidos a captando la vida.</h1>
+                    <p>
+                        Bienvenidos a mi portfolio, aquí encontraras una selección de mis fotografías las cuales se van actualizando de forma constante para mantener al día mis trabajos, las fotografías anteriores se iran sustituyendo por las nuevas.
+                        Me presento, mi nombre es Samuel Soto y me dedico a la fotografía. </p>
+                    <p>
+                        Soy una persona que sabe adaptarse a las situaciones, no solo busco adapatarme a la situación si no a lo que tu quieres, a lo que está en tu mente, 
+                        para poder mostrarselo al resto de personas. Cuento con un equipo de fotografía de alto valor y calidad para asi llevar a los limites la fotografía y que nada detenga a la imaginación. 
+                        En este portfolio podras ojear mis fotos saber cual es mi estilo, pero sobretodo busco que disfutes con mi fotografía, al igual que suelo hacer en las redes, 
+                        cuido mi portfolio y no busco tener un mayor contenido, si no un contenido de calidad, podría tener un portfolio con miles de fotos, pero... ¿Serias capaz de verlas todas sin cansarte? Lo dudo. </p>
+                    </article>
+                </section>
+            </main>
+            <div id="fotos">
+                <div id="img1">
+                    <img src="content/imagenes/1.JPG" alt="">
+                </div>
+                <div id="img2">
+                    <img src="content/imagenes/2.JPG" alt="">
+                </div>
+                <div id="img3">
+                    <img src="content/imagenes/3.JPG" alt=""> 
+                </div>
+                <div id="img4">
+                    <img src="content/imagenes/4.JPG" alt="">
+                </div>
+                <div id="img5">
+                    <img src="content/imagenes/5.JPG" alt="">
+                </div>
+                <div id="img6">
+                    <img src="content/imagenes/6.JPG" alt="">
+                </div>
+                <div id="img7">
+                    <img src="content/imagenes/7.JPG" alt=""> 
+                </div>
+                <div id="img8">
+                    <img src="content/imagenes/8.JPG" alt="">
+                </div>
+                <div id="img9">
+                    <img src="content/imagenes/9.JPG" alt="">
+                </div>
+                <div id="img10">
+                    <img src="content/imagenes/10.JPG" alt="">
+                </div>
+                <div id="img11">
+                    <img src="content/imagenes/11.JPG" alt=""> 
+                </div>
+                <div id="img12">
+                    <img src="content/imagenes/12.JPG" alt="">
+                </div>
+                <div id="img13">
+                    <img src="content/imagenes/13.JPG" alt="">
+                </div>
+                <div id="img14">
+                    <img src="content/imagenes/14.JPG" alt="">
+                </div>
+                <div id="img15">
+                    <img src="content/imagenes/15.JPG" alt=""> 
+                </div>
+                <div id="img16">
+                    <img src="content/imagenes/16.JPG" alt="">
+                </div>
+            </div>
+        </div>
+        <div id="contacto">
+            <form action="mailto:contactosamuelsoto@gmail.com" method="POST" enctype="text/plain">
+                <label for="nombre">Tu nombre (Requerido)</label>
+                <input name="Nombre " type="text" id="nombre">
+                <label for="apellidos">Tus Apellidos (Requerido)</label>
+                <input name="Apellidos " type="text" id="apellidos">
+                <label for="tipodeconsultas">Tipo de consulta</label>
+                <select name="Consulta " id="tipodeconsulta">
+                    <option value="Sesiones">Consulta sobre Sesiones</option>
+                    <option value="Diseño">Consulta sobre Diseño</option>
+                    <option value="Videos">Consulta sobre Videos</option>
+                    <option value="Otra">Otras consultas</option>
+                </select>
+                <label for="consulta_mas">Detalla más información sobre tu consulta:</label>
+                <textarea name="Información " id="consulta_mas" cols="30" rows="10"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+        <div id="reservas">
+            <form action="mailto:contactosamuelsoto@gmail.com" method="POST" enctype="text/plain">
+                <label for="nombre">Tu nombre (Requerido)</label>
+                <input name="Nombre " type="text" id="nombre">
+                <label for="apellidos">Tus Apellidos (Requerido)</label>
+                <input name="Apellidos " type="text" id="apellidos">
+                <label for="tipodereserva">Reservar para:</label>
+                <select name="Consulta " id="tipodeconsulta">
+                    <option value="Sesiones">Sesiones</option>
+                    <option value="Diseño">Diseño de logos - Diseño Web</option>
+                    <option value="Videos">Videos</option>
+                    <option value="Otra">Otro:</option>
+                </select>
+                <label for="fecha">Seleccione la fecha</label>
+                <input type="date" id="fecha">
+                <label for="consulta_mas">Detalla más información sobre tu consulta:</label>
+                <textarea name="Información " id="consulta_mas" cols="30" rows="10"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+        <div id="quienesSomos">
+            <h1>¿Quienes forman Captando la vida?</h1>
+            <p>Captando la vida es mas que un nombre, captando la vida es una marca, un sello de calidad en el mundo de la fotografia.</p>
+            <p>Las fotografias realizadas por el fotogrado Samuel Soto son firmadas con su nombre pero registradas por captando la vida. Es decir Captando la vida seria la forma de denominar las fotografias realizadas por Samuel Soto</p>
+            <p>Podeis ver algunos de mis trabajos en la parte principal de esta pagina.</p>
+            <p>Para contactar conmigo podeis hacerlo mediante este correo o mediante el formulario que se encuentra en <i><u><a onclick="contactanos()" id="contact">Contactanos</a></u></i></p>
+            <p><a href="mailto:samuelsootoo@gmail.com">samuelsootoo@gmail.com</a></p>
+        </div>
+    </div>
+    <div id="redesSociales">
+        <img src="content/logos/instagram.png" alt="Instagram">
+        <h3>Cuenta personal:</h3>
+        <p><a href="https://www.instagram.com/samuelsotx/" target="_blank">@samuelsotx</a></p>
+        <h3>Cuenta de fotografia:</h3>
+        <p><a href="https://www.instagram.com/captandolavida/" target="_blank">@captandolavida</a></p>
+    </div>
+    <footer>
+        <div>
+            <p>Captando la vida® es una marca registrada.</p>
+            <p>Diseño y autor de la pagina: Samuel Soto Paredes</p>
+            <p>2021 ©</p>
+        </div>
+    </footer>
+</body>
+
+</html>
